@@ -22,7 +22,7 @@ debug.enabled = true
 
 if (process.env.NODE_ENV != 'production') {
   const plugins = [
-    'ssb-gossip',
+    'ssb-legacy-conn',
     'ssb-blobs',
     'ssb-invite',
     'ssb-replicate',
@@ -66,7 +66,7 @@ if (process.env.NODE_ENV != 'production') {
             ]
 
             pairs.forEach(pair => {
-              if (semver.intersects(pair[0], pair[1]) === false) {
+              if (pair[0] && pair[1] && semver.intersects(pair[0], pair[1]) === false) {
                 throw new Error('plugins have incompatible devDependencies, for:'+k+' '+pair.join(' '))
               }
             })

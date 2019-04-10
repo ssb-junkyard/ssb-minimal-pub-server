@@ -1,4 +1,3 @@
-
 var cont      = require('cont')
 var deepEqual = require('deep-equal')
 var tape      = require('tape')
@@ -16,7 +15,7 @@ var createSsbServer =
     .use(require('ssb-db'))
     .use(require('ssb-replicate'))
     .use(require('ssb-friends'))
-    .use(require('ssb-gossip'))
+    .use(require('ssb-legacy-conn'))
     .use(require('../plugins/logging'))
 
 var createHash = require('crypto').createHash
