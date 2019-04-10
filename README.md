@@ -7,6 +7,8 @@ This repo has the following changes compared to ssb-server:
    removed. This module not used in the core, instead mostly used by
    external applications usch as patchfoo, git-ssb and ssb-npm. If
    needed can be installed as a plugin.
+ - Use [ssb-legacy-conn](https://github.com/staltz/ssb-legacy-conn)
+   instead of [ssb-gossip](https://github.com/ssbc/ssb-gossip).
 
 # License
 

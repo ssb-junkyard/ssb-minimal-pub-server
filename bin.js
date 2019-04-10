@@ -48,7 +48,7 @@ if (argv[0] == 'start') {
     .use(require('./plugins/no-auth'))
     .use(require('./plugins/plugins'))
     .use(require('./plugins/master'))
-    .use(require('ssb-gossip'))
+    .use(require('ssb-legacy-conn'))
     .use(require('ssb-replicate'))
     .use(require('ssb-friends'))
     .use(require('ssb-blobs'))

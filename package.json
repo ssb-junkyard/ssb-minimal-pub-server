@@ -52,7 +52,7 @@
     "ssb-db": "^19.1.0",
     "ssb-ebt": "^5.5.3",
     "ssb-friends": "^4.0.0",
-    "ssb-gossip": "^1.0.6",
+    "ssb-legacy-conn": "^1.0.23",
     "ssb-invite": "^2.0.3",
     "ssb-keys": "^7.1.1",
     "ssb-ooo": "^1.2.2",
