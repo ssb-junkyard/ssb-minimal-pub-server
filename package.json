@@ -55,7 +55,6 @@
     "ssb-gossip": "^1.0.6",
     "ssb-invite": "^2.0.3",
     "ssb-keys": "^7.1.1",
-    "ssb-links": "^3.0.2",
     "ssb-ooo": "^1.2.2",
     "ssb-query": "^2.1.0",
     "ssb-ref": "^2.13.9",
