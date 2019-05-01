@@ -1,7 +1,7 @@
 {
   "name": "ssb-minimal-pub-server",
   "description": "network protocol layer for secure-scuttlebutt",
-  "version": "14.1.10",
+  "version": "14.1.12",
   "homepage": "https://github.com/ssbc/ssb-minimal-pub-server",
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "start": "node bin start",
     "prepublishOnly": "npm test",
     "test": "rm node_modules/ssb-server; set -e; npm ls && for t in test/*.js; do echo TEST $t; node $t; done && ./test/deps.sh all",
-    "reinstall": "rm -rf node_modules package-lock.json; npm install --package-lock && npm shrinkwrap",
+    "reinstall": "rm -rf node_modules package-lock.json npm-shrinkwrap.json; export npm_config_package_lock=true; npm install && npm dedupe && npm shrinkwrap",
     "pretest": "./scripts/pretest.js",
     "coverage": "nyc --reporter=lcov npm test"
   },
@@ -50,7 +50,7 @@
     "ssb-client": "^4.7.1",
     "ssb-config": "^3.2.5",
     "ssb-db": "^19.1.0",
-    "ssb-ebt": "^5.5.3",
+    "ssb-ebt": "^5.6.1",
     "ssb-friends": "^4.0.0",
     "ssb-legacy-conn": "^1.0.23",
     "ssb-invite": "^2.0.3",
