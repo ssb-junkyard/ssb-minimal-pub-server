@@ -1,6 +1,6 @@
 # ssb-minimal-pub-server
 
-This is a fork of [ssb-server](https://github.com/ssbc/ssb-server) aimed at a minimal core useful for pubs.
+This is a friendly fork of [ssb-server](https://github.com/ssbc/ssb-server) aimed at a minimal core useful for pubs.
 
 This repo has the following changes compared to ssb-server:
  - [ssb-links](https://github.com/ssbc/ssb-links) has been
@@ -9,9 +9,9 @@ This repo has the following changes compared to ssb-server:
    needed can be installed as a plugin.
  - Use [ssb-legacy-conn](https://github.com/staltz/ssb-legacy-conn)
    instead of [ssb-gossip](https://github.com/ssbc/ssb-gossip).
+   
+In all other respects it behaves the same as ssb-server, so it should be an easy replacement.
 
 # License
 
 MIT
-
-
