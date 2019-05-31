@@ -12,6 +12,16 @@ This repo has the following changes compared to ssb-server:
    
 In all other respects it behaves the same as ssb-server, so it should be an easy replacement.
 
+## Install
+
+```
+npm install -g ssb-minimal-pub-server
+```
+
+## Usage
+
+Please refer to the [ssb-server documentation](https://github.com/ssbc/ssb-server#example-usage-bash).
+
 # License
 
 MIT
