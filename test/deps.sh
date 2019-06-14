@@ -26,6 +26,8 @@ test () {
 all () {
 
   test ssb-client
+  test ssb-master
+  test ssb-plugins
   test ssb-friends
   test ssb-blobs
   test ssb-invite
@@ -36,3 +38,4 @@ all () {
 }
 
 "$@"
+
