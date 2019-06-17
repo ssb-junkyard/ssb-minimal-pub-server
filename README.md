@@ -12,6 +12,8 @@ This repo has the following changes compared to ssb-server:
    
 In all other respects it behaves the same as ssb-server, so it should be an easy replacement.
 
+Furthermore this repo tries to stay as close to ssb-server as possible by merging in changes when new releases appear. This means that 15.0.1 is the same as ssb-server 15.0.1 expect the changes mentioned above.
+
 ## Install
 
 ```
