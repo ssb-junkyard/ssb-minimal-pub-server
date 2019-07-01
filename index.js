@@ -1,5 +1,5 @@
 var SecretStack = require('secret-stack')
-
+var caps = require('ssb-caps')
 var SSB = require('ssb-db')
 var caps = require('ssb-caps')
 
