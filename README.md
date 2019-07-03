@@ -19,7 +19,7 @@ be an easy replacement.
 
 Furthermore this repo tries to stay as close to ssb-server as possible
 by merging in changes when new releases appear. This means that 15.0.1
-is the same as ssb-server 15.0.1 expect the changes mentioned above.
+is the same as ssb-server 15.0.1 except the changes mentioned above.
 
 15.1.0 is a bit special in this regard because of the added peer
 invites modules.
