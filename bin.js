@@ -59,6 +59,9 @@ if (argv[0] == 'start') {
     .use(require('ssb-ws'))
     .use(require('ssb-ebt'))
     .use(require('ssb-ooo'))
+    .use(require('ssb-device-address'))
+    .use(require('ssb-identities'))
+    .use(require('ssb-peer-invites'))
   // add third-party plugins
 
   require('ssb-plugins').loadUserPlugins(createSsbServer, config)
